@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <h1>Generate An Excuse For : </h1>
-      <button onClick={() => generateExcuseFor('family') } >Family Excuse</button>
+      <button onClick={() => generateExcuseFor('family') }>Family Excuse</button>
       <button onClick={() => generateExcuseFor('party')} >Party Excuse</button>
       <button onClick={() => generateExcuseFor('office')} >Office Excuse</button>
 
